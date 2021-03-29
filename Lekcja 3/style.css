@@ -1,0 +1,101 @@
+body{background-color: chartreuse;}
+.header{background-color: red;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: flex-end;
+}
+.nav{
+    margin-left: 30%;
+    background-color: blue;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+}
+.absolutne{
+
+}
+.wykres1{
+    border: 2px dashed blue;
+    height: 2in ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.slupek{
+    border: 2px dashed blue;
+    width: 10%;
+}
+.s1{
+    height: 20px;
+    background-color: blueviolet;
+}
+.s2{
+    height: 30px;
+    background-color: coral;
+}
+.s3{
+    height: 40px;
+    background-color: darkblue;
+}
+.s4{
+    height: 50px;
+    background-color: deeppink;
+}
+.s5{
+    height: 60px;
+    background-color: gold;
+}
+.relatywne{
+    
+}
+.wykres2{
+    border: 2px dashed blueviolet;
+    height: 2in;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.slPion{
+    border: 2px dashed blueviolet;
+    height: 0.25in;
+}
+.sl1{
+    width: 20px;
+    background-color: deeppink;
+}
+.sl2{
+    width: 30px;
+    background-color: firebrick;
+}
+.sl3{
+    width: 40px;
+    background-color: green;
+}
+.sl4{
+    width: 50px;
+    background-color: indigo;
+}
+.sl5{
+    width: 60px;
+    background-color: blue;
+}
+.em{
+    font-size: 2em;
+    float: right;
+    color: maroon;
+}
+.logo{
+    background: url(logo_sprites.jpg);
+    width: 500px;
+    height: 200px;
+}
+.logo:hover{
+    background-position: 0 -200px;
+}
+.logo:active{
+    background-position: 0 -400px;
+}
