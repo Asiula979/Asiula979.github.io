@@ -14,7 +14,8 @@ body{
     padding: 2% 5%;
     background-color: darkcyan;
     position: sticky;
-    top: 0;
+    top: 8px;
+    z-index: 1;
 }
 .fixed{
     border: 5px solid royalblue;
