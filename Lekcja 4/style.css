@@ -64,5 +64,6 @@ body{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/lew.jpg?raw=true);
 }
 .clickable:active{
-    display: none;
+    opacity: 0;
+    transition: 1s;
 }
