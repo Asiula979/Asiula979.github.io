@@ -67,3 +67,9 @@ body{
     opacity: 0;
     transition: 1s;
 }
+@media (max-device-width: 748px) {
+    .relativ{
+        width: 80vw;
+        height: 80vw;
+    }
+}
