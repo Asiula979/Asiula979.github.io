@@ -7,7 +7,7 @@
     gap: 5px;
 }
 body{
-    border: 2px solid black;
+    border: 2px solid black; 
 }
 a:nth-child(1){
     grid-area: user;
@@ -58,4 +58,7 @@ a{
     .grid{
         display: block;
     }
+}
+h3{
+    text-align: center;
 }
