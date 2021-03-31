@@ -2,3 +2,19 @@ body{
     background-image: url(regal.png);
     /*Background pattern from Toptal Subtle Patterns*/
 }
+.topHeader{
+    text-align: center;
+}
+.topNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    border: 2px solid navy;
+    display: flex;
+    align-items: flex-start;
+}
+main{
+    border: 2px solid red;
+    flex: 3;
+}
