@@ -5,27 +5,31 @@
     "user heart music"
     "docs mail music";
     gap: 5px;
-    margin: 2px;
 }
 a:nth-child(1){
     grid-area: user;
     color: inherit;
+    background-color: coral;
 }
 a:nth-child(2){
     grid-area: heart;
     color: inherit;
+    background-color: khaki;
 }
 a:nth-child(3){
     grid-area: music;
     color: inherit;
+    background-color: lawngreen;
 }
 a:nth-child(4){
     grid-area: docs;
-    
+    color: inherit;
+    background-color: lightpink;
 }
 a:nth-child(5){
     grid-area: mail;
-   
+   color: inherit;
+   background-color: magenta;
 }
 a{
     border: 2px solid black;
