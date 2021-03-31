@@ -16,7 +16,7 @@ body{
 }
 main{
     border: 2px solid red;
-    flex: 3;
+    flex: 2;
 }
 img{
     max-width: 100%;
@@ -26,4 +26,15 @@ h1{
     font-size: 2em;
     margin: 0.67em;
     font-weight: bold;
+}
+p{
+    display: block;
+    margin: 1em;
+}
+.recomend{
+    border: 2px solid black;
+    flex: 1;
+}
+aside{
+    display: block;
 }
