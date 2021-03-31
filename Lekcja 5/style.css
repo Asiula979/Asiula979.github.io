@@ -8,19 +8,23 @@
 }
 a:nth-child(1){
     grid-area: user;
-    color: black;
+    color: inherit;
 }
 a:nth-child(2){
     grid-area: heart;
+    color: inherit;
 }
 a:nth-child(3){
     grid-area: music;
+    color: inherit;
 }
 a:nth-child(4){
     grid-area: docs;
+    color: inherit;
 }
 a:nth-child(5){
     grid-area: mail;
+    color: inherit;
 }
 a{
     border: 2px solid black;
@@ -35,5 +39,6 @@ a{
 }
 .footer{
     text-align: right;
+    font-size: 1pt;
 
 }
