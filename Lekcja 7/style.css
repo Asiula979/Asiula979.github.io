@@ -23,12 +23,7 @@ body {
   background-color: aqua;
 }
 
-body .twoCols {
-  border: 2px dashed red;
-}
-
 body .twoCols header {
-  border: 2px dashed green;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
@@ -38,7 +33,6 @@ body .twoCols header {
 }
 
 body .twoCols .imgHolder {
-  border: 2px dashed blue;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -97,5 +91,22 @@ body .second {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
+  font-size: 2em;
+}
+
+i {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
