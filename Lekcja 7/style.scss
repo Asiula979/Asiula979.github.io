@@ -1,22 +1,19 @@
-body{
-    background-color: rgb(127, 196, 173);
-}
-$primaryColor: rgb(65, 25, 25);
-$secondaryColor: rgb(236, 165, 165);
+*{
+    box-sizing: border-box;
+  }
+$primaryColor: rgb(247, 39, 39);
+$secondaryColor: rgb(243, 203, 203);
 %centered{
   display:flex;
   justify-content: center;
   align-items: center;
-}
-*{
-  box-sizing: border-box;
 }
 img{
   max-width: 60%;
 }
 
 body{
-  background-color: bisque;
+  background-color: aqua;
   h1{
     @extend %centered;
   }
@@ -24,7 +21,7 @@ body{
     border:2px dashed red;
     @extend %centered;
     header{
-      border:2px dashed blue;
+      border:2px dashed green;
       flex:2;
       padding-left:2%;
       color:$primaryColor;
@@ -32,13 +29,12 @@ body{
     }
     .imgHolder{
       @extend %centered;
-      border:2px dashed green;
+      border:2px dashed blue;
       flex:1;
       background-color:$primaryColor;
       padding:5%;
     }
   }
-
   main{
     @extend %centered;
     flex-wrap: wrap;
@@ -55,15 +51,11 @@ body{
 
     @for $i from 1 through 6{
       div:nth-child(#{$i}){
-        border:4vw solid lighten( #000000, $i * 13%);
+        border:4vw solid lighten( #2a0a33, $i * 13%);
         background-image: url(img/d#{$i}.jpg);
       }
     }
-
   }
-
-
-
   .second{
     flex-direction: row-reverse;
   }
