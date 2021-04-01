@@ -3,7 +3,7 @@
           box-sizing: border-box;
 }
 
-body h1, body .twoCols, body .twoCols .imgHolder, body main, body main div {
+body h1, body .twoCols, body .twoCols .imgHolder, body main, body main div, .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,14 +94,7 @@ body .second {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 4%;
   margin: 2%;
   font-size: 2em;
 }
