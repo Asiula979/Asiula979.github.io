@@ -1,3 +1,12 @@
 body{
     background-color: cornflowerblue;
+    background-image: url(https://hasajacezajace.com/wp-content/uploads/2018/10/Korona-G%C3%B3r-Polski.jpg);
+    background-size: cover;
+
+}
+.static{
+   background-color: rgb(206, 210, 214);
+    margin: 0%;
+    padding: 1%;
+    text-align: center;
 }
