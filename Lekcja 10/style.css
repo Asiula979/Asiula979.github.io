@@ -13,6 +13,13 @@ header{
 * {
     box-sizing: border-box;
 }
+.topNav{
+    display: flex;
+    align-items: center;
+    -ms-flex-direction: column;
+    padding: 6vh 0;
+}
+
 .topNav p{
     background-color: rgba(0, 250, 154, 0.623);
     display: flex;
@@ -23,12 +30,7 @@ header{
     margin-left: -25vh;
     
 }
-.topNav{
-    display: flex;
-    align-items: center;
-    -ms-flex-direction: column;
-    padding: 6vh 0;
-}
+
 .topNav p:nth-child(even){
     margin-left: 25vh;
 }
