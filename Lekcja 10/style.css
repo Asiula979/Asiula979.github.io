@@ -10,9 +10,7 @@ header{
     text-align: center;
     font-weight: bold;
 }
-* {
-    box-sizing: border-box;
-}
+
 .topNav{
     display: flex;
     align-items: center;
@@ -38,9 +36,9 @@ header{
     margin-left: 25vh;
 }
 
-a{
-    display: flex;
-    justify-content: right;
-    text-decoration: none;
-    padding: 2%;
+p {
+    display: block;
+    margin: 0%;
+    font-weight: bold;
+    text-align: center;
 }
