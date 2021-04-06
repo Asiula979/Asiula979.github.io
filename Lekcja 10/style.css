@@ -19,4 +19,16 @@ header{
     flex-wrap: wrap;
     width: 30vh;
     height: 40vh;
+    margin: -5vh;
+    margin-left: -25vh;
+    
+}
+.topNav{
+    display: flex;
+    align-items: center;
+    -ms-flex-direction: column;
+    padding: 6vh 0;
+}
+.topNav p:nth-child(even){
+    margin-left: 25vh;
 }
