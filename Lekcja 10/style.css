@@ -3,12 +3,18 @@ body{
     background-size: cover;
 
 }
+*{
+    box-sizing: border-box;
+}
 header{
-   background-color: rgb(206, 210, 214);
+   background-color: rgba(206, 210, 214, 0.678);
     margin: 0%;
     padding: 1%;
     text-align: center;
     font-weight: bold;
+    color: blueviolet;
+    font-size: 5vh;
+    font-style: italic;
 }
 
 .topNav{
@@ -19,7 +25,7 @@ header{
 }
 
 .topNav section{
-    background-color: rgba(0, 250, 154, 0.623);
+    background-color: rgba(0, 250, 133, 0.623);
     display: flex;
     flex-wrap: wrap;
     width: 60vh;
@@ -34,11 +40,55 @@ header{
 
 .topNav section:nth-child(even){
     margin-left: 25vh;
+    background-color: rgba(14, 217, 231, 0.623);  
+}
+h2{
+    width: 50vh;
+    height: 5vh;
+    display: block;
+    color: crimson;
+    font-size: 6vh;
+    font-weight: bold;
 }
 
-p {
+p{
     display: block;
     margin: 0%;
     font-weight: bold;
     text-align: center;
+    height: 70vh;
+    width: 70vh;
+    color: rgb(124, 6, 29);
+}
+h3{
+    width: 50vh;
+    height: 5vh;
+    display: block;
+    color: rgb(168, 8, 147);
+    font-size: 6vh;
+    font-weight: bold;
+    
+}
+p1{
+    display: block;
+    margin: 0%;
+    font-weight: bold;
+    text-align: center;
+    height: 10vh;
+    width: 50vh;
+    color: rgb(219, 40, 195);
+    font-size: 4vh;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;  
+
+}
+section h3 p1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
 }
