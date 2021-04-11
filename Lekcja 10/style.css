@@ -64,7 +64,7 @@ h3{
     width: 50vh;
     height: 5vh;
     display: block;
-    color: rgb(168, 8, 147);
+    color: rgb(143, 14, 126);
     font-size: 6vh;
     font-weight: bold;
     
@@ -76,7 +76,7 @@ p1{
     text-align: center;
     height: 10vh;
     width: 50vh;
-    color: rgb(219, 40, 195);
+    color: rgb(196, 12, 171);
     font-size: 4vh;
 }
 div{
@@ -91,4 +91,12 @@ section h3 p1 div{
     align-items: center;
     justify-content: space-evenly;
     margin: 0;
+}
+h4{
+    width: 50vh;
+    height: 5vh;
+    display: block;
+    color: rgb(89, 34, 238);
+    font-size: 6vh;
+    font-weight: bold;
 }
