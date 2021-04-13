@@ -52,13 +52,12 @@ h2 {
 }
 
 p{
-    display: block;
-    margin: 0%;
-    font-weight: bold;
-    text-align: center;
-    height: 70vh;
-    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
     color: black;
+    text-decoration: none;
 }
 h3 {
     width: 50vh;
@@ -89,6 +88,5 @@ div{
     justify-content: space-evenly;
     flex-direction: column;  
     
-
 }
 
