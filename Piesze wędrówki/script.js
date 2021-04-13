@@ -1,17 +1,15 @@
 const views=[
     {
-    "title": "Miasto o zachodzie słońca",
-    "src": "1.jpg",
+    "src": "3.jpg"
 },
 {
-    "title": "Widok miasta z góry",
-    "src": "2.jpg",
+    "src": "4.jpg"
 },
 {
-    "title": "Wieżowce",
-    "src": "3.jpg", 
+    "src": "5.jpg" 
 }
 ];
+
 console.log(views);
 
 function displayViews(index){
@@ -19,12 +17,8 @@ const imgFild=document.querySelector(".content");
 console.log(imgFild);
 imgFild.innerHTML="";
 
-const titleFild=document.querySelector("h2");
-console.log(titleFild);
-titleFild.innerHTML=views[index].title;
-
 const img=document.createElement("img");
-img.src="img/"+ views[index].src;
+img.src="img/"+views[index].src;
 imgFild.append(img);
 console.log(img);
 }
