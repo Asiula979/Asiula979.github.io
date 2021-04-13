@@ -75,8 +75,10 @@ div{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;  
-    
 }
+
+
+
 @media(max-width: 900px){
         section{
             width: 100%;
