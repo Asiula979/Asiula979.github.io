@@ -1,3 +1,31 @@
 body{
     background-color: aquamarine;
 }
+*{
+    box-sizing: border-box;
+}
+.topHeader{
+    text-align: center;
+    padding: 3%;
+}
+.topNav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgba(173, 163, 163, 0.651);
+    padding: 1%;
+    font-size: 2.5em;
+    color: rgb(236, 100, 9);
+}
+main{
+    flex: 5;
+    background-color:  rgb(162, 123, 241);
+    padding: 10%;
+    margin: 1% 0;
+}
+h1{
+    font-size: 2em;
+    font-style: italic;
+}
+p{
+    font-size: 1.5em;
+}
