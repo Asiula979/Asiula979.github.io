@@ -1,8 +1,8 @@
 body{
     background-image: url(2.jpg);
     background-size: cover;
-
 }
+
 *{
     box-sizing: border-box;
 }
@@ -42,10 +42,10 @@ header{
     margin-left: 25vh;
     background-color: rgba(14, 217, 231, 0.623);  
 }
-h2{
+h2 {
     width: 50vh;
     height: 5vh;
-    display: block;
+    text-align: center;
     color: crimson;
     font-size: 6vh;
     font-weight: bold;
@@ -58,45 +58,37 @@ p{
     text-align: center;
     height: 70vh;
     width: 70vh;
-    color: rgb(124, 6, 29);
+    color: black;
 }
-h3{
+h3 {
     width: 50vh;
     height: 5vh;
-    display: block;
     color: rgb(143, 14, 126);
     font-size: 6vh;
     font-weight: bold;
     
 }
-p1{
-    display: block;
-    margin: 0%;
-    font-weight: bold;
-    text-align: center;
-    height: 10vh;
+h4{
     width: 50vh;
-    color: rgb(196, 12, 171);
-    font-size: 4vh;
+    height: 5vh;
+    text-align: center;
+    color: crimson;
+    font-size: 6vh;
+    font-weight: bold;
+}
+h5{
+    width: 50vh;
+    height: 5vh;
+    color: rgb(143, 14, 126);
+    font-size: 6vh;
+    font-weight: bold;
 }
 div{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;  
+    
 
 }
-section h3 p1 div{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0;
-}
-h4{
-    width: 50vh;
-    height: 5vh;
-    display: block;
-    color: rgb(89, 34, 238);
-    font-size: 6vh;
-    font-weight: bold;
-}
+
