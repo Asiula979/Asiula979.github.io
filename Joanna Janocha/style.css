@@ -12,7 +12,9 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color:  rgba(173, 163, 163, 0.651);
-    padding: 1%;
+    padding: 2%;  
+}
+button{
     font-size: 2em;
     font-weight: bold;
     color: rgb(243, 18, 149);
