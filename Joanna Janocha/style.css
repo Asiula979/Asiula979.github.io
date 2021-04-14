@@ -13,8 +13,9 @@ body{
     justify-content: space-evenly;
     background-color:  rgba(173, 163, 163, 0.651);
     padding: 1%;
-    font-size: 2.5em;
-    color: rgb(236, 100, 9);
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(236, 25, 17);
 }
 main{
     flex: 5;
@@ -29,3 +30,13 @@ h1{
 p{
     font-size: 1.5em;
 }
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    margin: 2%;
+    font-size: 2em;
+  }
+  a{
+      color: black;
+  }
