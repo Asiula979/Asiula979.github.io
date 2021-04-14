@@ -15,11 +15,16 @@ body{
     padding: 1%;
     font-size: 2em;
     font-weight: bold;
-    color: rgb(236, 25, 17);
+    color: rgb(243, 18, 149);
 }
+.content{
+    border: 5px dashed rgb(238, 9, 9);
+    padding: 7%;
+    margin-top: 2%;
+}
+
 main{
-    flex: 5;
-    background-color:  rgb(162, 123, 241);
+    background-color: rgb(162, 123, 241);
     padding: 10%;
     margin: 1% 0;
 }
@@ -36,7 +41,8 @@ p{
     padding: 4%;
     margin: 2%;
     font-size: 2em;
+    border: 2px solid black;
   }
   a{
-      color: black;
+      color: rgb(23, 109, 6);
   }
